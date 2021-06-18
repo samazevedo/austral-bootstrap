@@ -4,6 +4,8 @@
   "description": "austral project using bootstrap",
   "main": "index.html",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "dev": "lite-server"
   },
   "repository": {
