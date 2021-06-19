@@ -1,12 +1,10 @@
-
-#destination btn {
-    color="lightblue"
-}
-
-header {
-    background-color: lightblue;
+.jumbotron {
+    margin-top:50px;
     height: 300px;
-    padding: 10px;
+    
+}
+header {
+    background-color: #e6e6ff;  
 
 }
 footer {
