@@ -5,115 +5,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" >
     <title>Hotel</title>
-  </head>s
-  <body>
-      <div class="jumbotron" id="jumbotron">
-          <h1 class="display-4">Austral Hotels</h1>
-      </div>
-      <hr class="my-4"/>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <p>
-                    <h3>How does it work?</h3>
-                    <p>Search for your prefered hotels.</p>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p>
-                    <h3>How can I book?</h3>
-                    <p>Select the city of your interest and then book with your information.</p>
-                </p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <p>
-                <h3>How can I pay?</h3>
-                <p>You can select your favorite card</p>
-            </p>
-        </div>
-    </div>
-    <div  id="destination-btn"class="d-flex flex-wrap">
-        <div class="col-sm-3">
-            <p>
-                <h4>Barcelona Hotel</h4>
-                <p>Hotel located in the center of the Barcelona city a few meters from the beach.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3">
-            <p>
-                <h4>Miami Hotel</h4>
-                <p>Hotel located in front of Miami Beach.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3">
-            <p>
-                <h4>Cancum  Hotel</h4>
-                <p>Hotel located a fewmeters from the beach.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3">
-            <p>
-                <h4>Buenos Aires Hotel</h4>
-                <p>Hotel located in the center of the Buenos Aires.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3" >
-            <p>
-                <h4>Panama city Hotel</h4>
-                <p>Hotel located a few meters from the beach.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3">
-            <p>
-                <h4>Rio de Janeiro Hotel</h4>
-                <p>Hotel located in the most important venue across the beach.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-        <div class="col-sm-3">
-            <p>
-                <h4>Sao Paulo Hotel</h4>
-                <p>Hotel located in the busy city center.</p>
-                <button type="btn" class="btn btn-primary btn-lg" href="#" role="button">Book Now</button>
-            </p>
-        </div>
-    </div>
-    <footer>
+</head>
+<body>
+    <header class="jumbotron" id="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="http://www.facebook.com">Facebook</a>
-                    <a href="http://www.instagram.com">Instagram</a>
-                    <a href="http://www.twitter.com">Twitter</a>
-                    <a href="http://www.youtube.com">Youtube</a>
-                </div>
-                <div class="col-sm-4">
-                    <address>
-                        12345 Austral Dr. Austral 
-                        +123456789
-                        australhotel@autral.com
-                    </address>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#">About Us</a>
-                    <a href="#">Prices</a>
-                    <a href="#">Terms and Conditions</a>
-                    <a href="#">Contact</a>
-                </div>
+                <h1 class="display-4">Austral Hotels</h1>
             </div>
         </div>        
-    </footer>
+    </header>   
+    <div class="container">
+        <div class="row ">
+            <div class="d-flex align-items-center flex-wrap">
+                <div class="col-12 col-sm-4  ">
+                    <div class="card   info-card  ">
+                        <div class="">
+                            <div>
+                                <h3>How does it work?</h3>
+                                <p>Search for your prefered hotels.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card  info-card justify-content-between">
+                        <div class="">
+                            <h3>How can I book?</h3>
+                            <p>Select the city of your interest and then book with your information.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="card  info-card justify-content-between">
+                        <div class="">
+                            <h3>How can I pay?</h3>
+                            <p>You can select your favorite card</p>
+                        </div>
+                    </div>  
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+
+
+
+    <div class="container">
+        <div class="row ">
+            <div class="d-flex align-items-center flex-wrap">
+                <div class="col-12 col-sm-4  ">
+                    <div class="card   hotel-card justify-content-between ">                        
+                            <h4>Barcelona Hotel</h4>
+                            <p>Hotel located in the center of the Barcelona city a few meters from the beach.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                    </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Miami Hotel</h4>
+                            <p>Hotel located in front of Miami Beach.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Cancum  Hotel</h4>
+                            <p>Hotel located a fewmeters from the beach.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>  
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Buenos Aires Hotel</h4>
+                            <p>Hotel located in the center of the Buenos Aires.</p>
+                            <button type="btn" class="btn btn-primary btn-lg  btn-reserve" href="#" role="button" >Book Now</button>
+                        </div>  
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Panama city Hotel</h4>
+                            <p>Hotel located a few meters from the beach.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>  
+                    </div> 
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Rio de Janeiro Hotel</h4>
+                            <p>Hotel located in the most important venue across the beach.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>  
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Sao Paulo Hotel</h4>
+                            <p>Hotel located in the busy business center.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>  
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="card  hotel-card justify-content-between">
+                            <h4>Aruba Hotel</h4>
+                            <p>Hotel located in one of the most beautiful island.</p>
+                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                        </div>  
+                    </div>                  
+                </div>
+            </div>
+                   
+    </div !-- end container -->
+    
+   <footer>
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <div class="d-flex flex-wrap">
+                    <div class="col-12 col-sm-4">
+                        <div class="d-flex flex-column">
+                            <a class="mt-2" href="http://www.facebook.com">Facebook</a>
+                            <a class="mt-2" href="http://www.instagram.com">Instagram</a>
+                            <a class="mt-2" href="http://www.twitter.com">Twitter</a>
+                            <a class="mt-2" href="http://www.youtube.com">Youtube</a>
+                        </div>                        
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="align-items-center">
+                            <h5>Our Address</h5>
+                            <address>
+                                12345 Austral Dr. Austral <br/>
+                                +123456789                     <br/> 
+                                australhotel@autral.com  <br/>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <div class="d-flex flex-column">
+                            <a class="mt-2" href="#">About Us</a>
+                            <a class="mt-2" href="#">Prices</a>
+                            <a class="mt-2" href="#">Terms and Conditions</a>
+                            <a class="mt-2" href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>                   
+            </div>
+        </div>
+    </div>
+</footer> 
+   
     <!-- JQuery first, Popper and Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
