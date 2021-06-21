@@ -51,8 +51,7 @@
             </div>
           </div>       
     </header> 
-    <div class="container">
-        
+    <div class="container-fluid" id="info-container">
         <div class="row ">
             <div class="d-flex align-items-center flex-wrap">
                 <div class="col-12 col-sm-4  ">
@@ -80,7 +79,8 @@
                             <p>You can select your favorite card</p>
                         </div>
                     </div>  
-                </div>                
+                </div> 
+                <img src="./images/noronha.jpg" class="rounded-circle " alt="Noronha">               
             </div>
         </div>
     </div>
@@ -92,67 +92,74 @@
     <div class="container">
         <hr/>
         <div class="row ">
-            <div class="d-flex align-items-center flex-wrap">
-                <div class="col-12 col-sm-4  ">
-                    <div class="card   hotel-card justify-content-between ">                        
-                            <h4>Iguazu Hotel</h4>
-                            <p>Hotel located near the Iguazu Falls.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="card m-2  col-12 col-md-3" >
+                    <img src="./images/iguazu.jpg" class="card-img-top" alt="Iguazu">
+                    <div class="card-body">
+                      <h5 class="card-title">Iguazu Hotel</h5>
+                      <p class="card-text">Hotel located near the Iguazu Falls.</p>                      
                     </div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Galapagos Hotel</h4>
-                            <p>Hotel located in the beautiful Puerto Ayora.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Cancum  Hotel</h4>
-                            <p>Hotel located a fewmeters from the beach.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>  
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Buenos Aires Hotel</h4>
-                            <p>Hotel located in the center of the Buenos Aires.</p>
-                            <button type="btn" class="btn btn-primary btn-lg  btn-reserve" href="#" role="button" >Book Now</button>
-                        </div>  
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Patagonia Hotel</h4>
-                            <p>Hotel located in El Calafate.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>  
-                    </div> 
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Rio de Janeiro Hotel</h4>
-                            <p>Hotel located in the most important venue across the beach.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>  
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Sao Paulo Hotel</h4>
-                            <p>Hotel located in the busy business center.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>  
-                    </div>
-                    <div class="col-12 col-sm-4">
-                        <div class="card  hotel-card justify-content-between">
-                            <h4>Aruba Hotel</h4>
-                            <p>Hotel located in one of the most beautiful island.</p>
-                            <button type="btn" class="btn btn-primary btn-lg btn-reserve" href="#" role="button">Book Now</button>
-                        </div>  
-                    </div>                  
+                    <buttton  href="#" type="bnt" class="btn  btn-lg btn-reserve">Book Now</button>
+                  </div>
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images/galapagos.jpg" class="card-img-top " alt="Galapagos">
+                    <div class="card-body">
+                        <h4 class="card-title">Galapagos Hotel</h4>
+                        <p class="card-text">Hotel located in the beautiful Puerto Ayora.</p>    
+                    </div>                        
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
                 </div>
-            </div>
-                   
-    </div !-- end container -->
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images/noronha.jpg" class="card-img-top " alt="Noronha">
+                    <div class="card-body">
+                        <h4 class="card-title">Fernando de Noronha  Hotel</h4>
+                        <p class="card-text">Hotel located in a paradise island.</p>
+                    </div>                          
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                </div>                
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images//buenosaires.jpg" class="card-img-top" alt="Buenos Aires">
+                    <div class="card-body">
+                        <h4 class="card-title">Buenos Aires Hotel</h4>
+                        <p class="card-text">Hotel located in the center of the Buenos Aires.</p>
+                    </div>                            
+                    <button type="btn" class="btn  btn-lg  btn-reserve" href="#" role="button" >Book Now</button>
+                </div>
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images/patagonia.jpg" class="card-img-top" alt="Patagonia">
+                    <div class="card-body">
+                        <h4 class="card-title">Patagonia Hotel</h4>
+                        <p class="card-text">Hotel located in El Calafate.</p>
+                    </div>                            
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                </div>
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images/rio.jpg" class="card-img-top img-fluid" alt="Rio de Janeiro">
+                    <div class="card-body">
+                        <h4 class="card-title">Rio de Janeiro Hotel</h4>
+                        <p class="card-text">Hotel located in the most important venue across the beach.</p>
+                    </div>                          
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                </div>
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="images/saopaulo.jpg" class="card-img-top img-fluid" alt="Sao Paulo">
+                    <div class="card-body">
+                        <h4 class="card-title">Sao Paulo Hotel</h4>
+                        <p class="card-text">Hotel located in the busy business center.</p>
+                    </div>                            
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                </div>
+                <div class="card m-2  col-12 col-md-3">
+                    <img src="./images/aruba.jpg" class="card-img-top img-fluid" alt="Aruba">
+                    <div class="card-body">
+                        <h4 class="card-title">Aruba Hotel</h4>
+                        <p class="card-text">Hotel located in one of the most beautiful island.</p>
+                    </div>
+                    <button type="btn" class="btn  btn-lg btn-reserve" href="#" role="button">Book Now</button>
+                </div>  
+            </div>    
+        </div>                   
+    </div >
     
    <footer>
        <div class="container">

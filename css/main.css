@@ -33,17 +33,19 @@ footer a {
 }
 footer a:hover {
     text-decoration: none;
-    color:#ff9999;
-}
-.hotel-card {
-    margin:20px 10px 20px 10px;
-    padding: 2px 5px 2px 5px;
-    height:250px;
-   
-}
-.btn-reserve{
     
 }
+
+.card {
+    box-shadow: 3px 3px 5px;
+}
+.card img{
+    max-height:150px;
+    border-radius:5px;
+    padding: 3px;
+}
+
+
 .info-card {
     height:200px;
     padding: 5px 10px 5px 10px;
@@ -56,4 +58,22 @@ i {
 
 .formStyle {
     margin-top: 20px;
+}
+.pay-method {
+    margin-left:20px;
+}
+#info-container {
+    background-image:url("../images/iguazu.jpg");
+    background-position: fit;
+    background-repeat: no-repeat;
+}
+.btn-reserve {
+    background-color: #000;
+    color:#fff;
+    font-weight: 700;
+}
+.btn-reserve:hover{
+    background-color:#e6fff2 ;
+    color:#000;
+    box-shadow: 2px 2px 3px;
 }
