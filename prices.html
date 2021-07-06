@@ -64,108 +64,127 @@
         </div>      
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 table-responsive">
-                <table class="table  table-success table-striped table-hover">
-                    <tbody>
-                        <tr>
-                            <th>Stars</th>
-                            <td>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </td>
-                            <td>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </td>
-                            <td>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Iguazu</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Galapagos</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Noronha</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Buenos Aires</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Patagonia</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>                       
-                        <tr>
-                            <th scope="row">Rio de Janeiro</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Sao Paulo</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                        <tr>
-                            <th scope="row">Aruba</th>
-                            <td scope="col">$100</td>
-                            <td scope="col">$200</td>
-                            <td scope="col">$500</dh>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="nav nav-tabs" id="myTab" role="tablist">
+            <button class="nav-link" id="compare-prices-tab" data-bs-toggle="tab"
+                data-bs-target="#compare-prices" type="button" role="tab"
+                aria-controls="compare-prices" aria-selected="true">Compare Prices</button>
+                <button class="nav-link" id="payment-method-tab" data-bs-toggle="tab"
+                data-bs-target="#payment-method" type="button" role="tab"
+                aria-controls="payment-method" aria-selected="true">Payment Method</button>
+                <button class="nav-link" id="comments-tab" data-bs-toggle="tab"
+                data-bs-target="#comments" type="button" role="tab"
+                aria-controls="comments" aria-selected="true">Compare Prices</button>
         </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h4> Payment Methods</h4>
-                <div class="d-flex ">
-                    <div>
-                        <i class="fab fa-cc-visa fa-4x pay-method"></i>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compare-prices" 
+                role="tabpanel" aria-labelledby="nav-compare-tab">
+                <div class="row">
+                    <div class="col-12 table-responsive">
+                        <table class="table  table-success table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                    <th>Stars</th>
+                                    <td>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </td>
+                                    <td>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Iguazu</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Galapagos</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Noronha</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Buenos Aires</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Patagonia</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>                       
+                                <tr>
+                                    <th scope="row">Rio de Janeiro</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sao Paulo</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Aruba</th>
+                                    <td scope="col">$100</td>
+                                    <td scope="col">$200</td>
+                                    <td scope="col">$500</dh>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div>
-                        <i class="fab fa-cc-amex fa-4x pay-method"></i>
-                    </div>
-                    <div>
-                        <i class="fab fa-cc-mastercard fa-4x pay-method"></i>
-                    </div>
-                    <div>
-                        <i class="fab fa-cc-paypal fa-4x pay-method"></i>
-                    </div>
-                </div>                
+                </div>             
             </div>
-        </div>
 
+            <div class="tab-pane fade" id="payment-method" role="tabpanel"
+            aria-labelledby="nav-payment-method">
+                <div class="row">
+                    <div class="col-12">
+                        <h4> Payment Method</h4>
+                        <div class="d-flex ">
+                            <div>
+                                <i class="fab fa-cc-visa fa-4x pay-method"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-cc-amex fa-4x pay-method"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-cc-mastercard fa-4x pay-method"></i>
+                            </div>
+                            <div>
+                                <i class="fab fa-cc-paypal fa-4x pay-method"></i>
+                            </div>
+                        </div>                
+                    </div>
+                </div>        
+            </div>
+            <div class="tab-pane fade" id="comments" role="tabpanel"
+                aria-labelledby="comments-tab">
+                <h2>Comments</h2>
+            </div>
+        </div>        
     </div>
-    
     
 
     
