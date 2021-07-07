@@ -50,9 +50,26 @@
           </div>       
     </header> 
     <div class="container-fluid" id="info-container">
+        <div class="row">
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#how-it-works"> How does it work?</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#how-to-book"> How can I book?</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#how-to-pay"> How can I pay?</button>
+            </div>
+        </div>
         <div class="row ">
             <div class="d-flex align-items-center flex-wrap">
-                <div class="col-12 col-sm-4  ">
+                <div class="col-12 col-sm-4  collapse multi-collapse" id="how-it-works">
                     <div class="card   info-card  ">
                         <div class="">
                             <div>
@@ -63,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-4">
-                    <div class="card  info-card justify-content-between">
+                    <div class="card  info-card justify-content-between" id="how-to-book">
                         <div class="">
                             <h3>How can I book?</h3>
                             <p>Select the city of your interest and then book with your information.</p>
@@ -71,7 +88,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-4">
-                    <div class="card  info-card justify-content-between">
+                    <div class="card  info-card justify-content-between" id="how-to-pay">
                         <div class="">
                             <h3>How can I pay?</h3>
                             <p>You can select your favorite card</p>

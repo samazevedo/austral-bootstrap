@@ -63,9 +63,7 @@ i {
     margin-left:20px;
 }
 #info-container {
-    background-image:url("../images/iguazu.jpg");
-    background-position: fit;
-    background-repeat: no-repeat;
+   margin-top: 10px;
 }
 .btn-reserve {
     background-color: #000;
